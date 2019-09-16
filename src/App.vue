@@ -39,7 +39,7 @@
 				if (this.col * this.row * this.num !== 0) {
 					this.isShowSeep = true;
 				}else{
-					alert('请输入正确值~。。。~')
+					alert('请输入正确值~。。。78~')
 				}
 			}
 		}
