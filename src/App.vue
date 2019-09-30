@@ -26,7 +26,7 @@
 			}
 		},
 		created(){
-			console.log(12);
+			console.log(1234);
 		},
 		methods: {
 			bindInputCol(e){
