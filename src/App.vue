@@ -27,9 +27,11 @@
 		},
 		created(){
 			console.log(1234);
+			console.log(2);
 		},
 		methods: {
 			bindInputCol(e){
+				console.log('我这里是dev分支');
 				this.col = Number(e.target.value);
 			},
 			bindInputRow(e){
