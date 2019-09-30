@@ -25,6 +25,9 @@
 				isShowSeep: false
 			}
 		},
+		created(){
+			console.log(12);
+		},
 		methods: {
 			bindInputCol(e){
 				this.col = Number(e.target.value);
